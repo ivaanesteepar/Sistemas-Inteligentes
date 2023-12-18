@@ -522,6 +522,8 @@ def performActionMinMax(state:TableroLinja, jugador:int):
         tmpMatrizB = TableroLinja(tmp.getMatriz())  # se crea una instancia de la matriz
         tmpMatrizB.initActualizado(tmp) # se obtiene la matriz actualizada
         (matrizoptima, valoroptimo, stop) = minimax(tmpMatrizB, currentLevel, depth, jugador, -math.inf, math.inf, stop)
+        if itera == 0 and stop:
+            state.cambiarTurno()
         itera += 1
 
     return matrizoptima

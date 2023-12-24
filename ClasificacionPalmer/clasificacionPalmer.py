@@ -15,6 +15,7 @@ from sklearn.model_selection import train_test_split
 
 from sklearn.neural_network import MLPClassifier
 from sklearn.svm import SVC
+from sklearn.preprocessing import LabelEncoder
 
 from sklearn.model_selection import cross_val_score, cross_val_predict, GridSearchCV
 from sklearn.pipeline import Pipeline
@@ -34,9 +35,6 @@ display(df)
 
 # Eliminación de las filas que contengan al menos un valor "N. A."
 df = df.dropna()
-
-# Creación de un codificador que me permita asignar números a variables "categóricas". 2º)
-from sklearn.preprocessing import LabelEncoder
 
 le = LabelEncoder()
 df['species'] = le.fit_transform(df['species'])
@@ -109,8 +107,6 @@ def predictions_model(X_train,y_train,X_test, y_test,model):
         
     return y_test,preds
 
-
-from sklearn.model_selection import train_test_split
 
 def run_all_save(filename, train_size): # le paso por parametro los porcentajes de entrenamiento
     all_preds = {}
@@ -220,7 +216,6 @@ def get_results(filename):
     return results 
   
 results = get_results(filename)
-
 
 # Realizar pruebas para 50 %
 run_all_save(filename, train_size=0.5)

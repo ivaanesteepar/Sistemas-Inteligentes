@@ -1,6 +1,6 @@
 <h2>Sistemas Inteligentes</h2>
 
-<p>Also known as SISIN</p>
+<p>Also known as SISIN.</p>
 
 <p>Practices of the subject of Intelligent Systems at UBU.</p>
 

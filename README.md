@@ -1,5 +1,7 @@
 <h2>Sistemas Inteligentes</h2>
 
+<p>Also known as SISIN</p>
+
 <p>Practices of the subject of Intelligent Systems at UBU.</p>
 
 <p>In the subject, there are 3 practical assignments, where the first one is the longest and the most difficult one (good luck).</p>

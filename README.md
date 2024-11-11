@@ -2,7 +2,7 @@
 
 <p>Practices of the subject of Intelligent Systems at UBU.</p>
 
-<p>In the subject, there are 3 practical assignments, where the first one is the longest and the most difficult one (good luck)</p>
+<p>In the subject, there are 3 practical assignments, where the first one is the longest and the most difficult one (good luck).</p>
 
 <p>The first practical work is <a href="https://github.com/ivaanesteepar/LinjaGame" target="_blank">here</a></p>
 
